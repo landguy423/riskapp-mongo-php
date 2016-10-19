@@ -1,0 +1,94 @@
+/* ------------------------------------------------------------------------------
+ *
+ *  # box style #
+ *
+ *  Version: 1.0
+ *  Latest update: 8 20, 2016
+ *
+ * ---------------------------------------------------------------------------- */
+
+.info-blocks {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.info-blocks > li {
+    display: inline-block;
+    text-align: center;
+    min-width: 150px;
+    white-space: nowrap;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+
+.bg-primary, .bg-primary a {
+    color: #fff;
+    background-color: #32434D;
+}
+
+.bg-success, .bg-success a {
+    color: #fff;
+    background-color: #65B688;
+}
+
+
+.bg-danger, .bg-danger a {
+    color: #fff;
+    background-color: #D65C4F;
+}
+
+.bg-info, .bg-info a {
+    color: #fff;
+    background-color: #3CA2BB;
+}
+
+.bg-warning, .bg-warning a {
+    color: #fff;
+    background-color: #EE8366;
+}
+.top-info {
+    margin: 16px 14px 14px 14px;
+}
+.top-info > a {
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.top-info > small {
+    font-size: 11px;
+    display: block;
+    margin-top: -2px;
+}
+
+.info-blocks > li > a > i {
+    font-size: 48px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.bottom-info {
+    display: block;
+    font-size: 11px;
+    padding: 4px 8px 5px 8px;
+    font-weight: 600;
+    border-radius: 0 0 2px 2px;
+    -webkit-border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+}
+
+
+.additional-field{
+    margin-top: 10px;
+}
+.drop-textarea{
+    margin-top: 36px;
+    margin-left: -21px;
+}
+.dropdown_textarea:hover{
+    cursor: pointer;
+}
